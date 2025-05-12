@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Chai Nagri</title>
+    <link rel="stylesheet" href="cn.css" />
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Chai Nagri !🧋</h1>
+    <nav>
+        <a onclick="showSection('about')">About Us👪</a>
+        <a onclick="showSection('menu')">Menu📑</a>
+        <a onclick="showSection('home')">Home🏠</a>
+        <a onclick="showSection('contact')">Contacts📞☎</a>
+    </nav>
+</header>
+
+<section id="about" class="section about-section">
+    <h2><u>About Us💖</u></h2>
+    <p><b>Welcome to Chai Nagri, where tradition meets taste...</b></p>
+    <img src="c_nag.jpg" alt="Welcome to Chai Nagri">
+    <footer>
+        <p>&copy; 2024 Chai Nagri. All rights reserved.</p>
+    </footer>
+</section>
+
+<section id="home" class="section hidden home-section">
+    <h2><u>Home-page🏡</u></h2>
+    <p>Contact Number: <strong>+918000024595</strong></p>
+    <p>To reserve a seat for dining, please call us at the above number.</p>
+    <h3><u>Restaurant Timings⏰</u></h3>
+    <p class="timings">Monday to Friday: 11:00 AM - 9:00 PM</p>
+    <p class="timings">Saturday and Sunday: 10:00 AM - 7:00 PM</p>
+    <img class="images" src="image1.jpg" alt="Cozy Ambience">
+    <img class="images" src="image2.jpg" alt="Cozy Ambience">
+    <img class="images" src="image3.jpg" alt="Cozy Ambience">
+    <img class="images" src="image4.jpg" alt="Cozy Ambience">
+</section>
+
+<section id="menu" class="section hidden">
+    <h2><u>Menu🔖</u></h2>
+    <div class="menu-category">
+        <h3>Vegetarian Dishes 🥕🍀</h3>
+        <ul>
+            <li>Paneer Butter Masala <span class="price">₹200</span></li>
+            <li>Dal Makhani <span class="price">₹180</span></li>
+            <li>Chole Bhature <span class="price">₹150</span></li>
+            <li>Vegetable Biryani <span class="price">₹220</span></li>
+            <li>Palak Paneer <span class="price">₹210</span></li>
+            <li>Veg Korma <span class="price">₹190</span></li>
+            <li>Stuffed Paratha <span class="price">₹80</span></li>
+            <li>Veg Pulao <span class="price">₹170</span></li>
+            <li>Spring Rolls <span class="price">₹140</span></li>
+            <li>Vegetable Manchurian <span class="price">₹160</span></li>
+            <li>Chai Nagri Special Veg Pizza<span class="price">₹250</span></li>
+            <li>Veg momos(7 pcs)<span class="price">₹70</span></li>
+            <li>CN's special paneer sandwich<span class="price">₹100</span></li>
+        </ul>
+    </div>
+    <div class="menu-category">
+        <h3>Non-Vegetarian Dishes🍗🥩</h3>
+        <ul>
+            <li>Butter Chicken <span class="price">₹250</span></li>
+            <li>Lamb Rogan Josh <span class="price">₹280</span></li>
+            <li>Fish Curry <span class="price">₹240</span></li>
+            <li>Chicken Biryani <span class="price">₹230</span></li>
+            <li>Tandoori Chicken <span class="price">₹260</span></li>
+            <li>Chicken Tikka Masala <span class="price">₹270</span></li>
+            <li>Egg Curry <span class="price">₹200</span></li>
+            <li>Mutton Korma <span class="price">₹290</span></li>
+            <li>Chicken Seekh Kebabs <span class="price">₹220</span></li>
+            <li>Fish Tikka <span class="price">₹250</span></li>
+            <li>Chicken Tikka Pizza<span class="price">₹240</span></li>
+            <li>Hamburger<span class="price">₹220</span></li>
+        </ul>
+    </div>
+    <div class="menu-category">
+        <h3>Beverages🧋🍉</h3>
+        <ul>
+            <li>Regular Chai <span class="price">₹50</span></li>
+            <li>Chai Masala <span class="price">₹60</span></li>
+            <li>Iced Tea <span class="price">₹70</span></li>
+            <li>Lemon Tea <span class="price">₹60</span></li>
+            <li>Ginger tea <span class="price">₹65</span></li>
+            <li>Green tea <span class="price">₹70</span></li>
+            <li>Black tea <span class="price">₹55</span></li>
+            <li>Black coffee <span class="price">₹80</span></li>
+            <li>Water (Regular) <span class="price">₹20</span></li>
+            <li>Hot water <span class="price">₹15</span></li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact" class="section hidden contact-section">
+    <h2>Contact Us📞☎</h2>
+    <p>We love to hear from our customers! Reach out to us at:</p>
+    <p>Email: <strong>info@chainagri.com</strong></p>
+    <p>Phone: <strong>+918000024595</strong></p>
+    <p>Address: <strong>Chitkara University, Baddi, Himachal Pradesh, India</strong></p>
+    <h3>Customer Reviews:✍</h3>
+    <textarea rows="12" placeholder="Write your review here..." class="form-control"></textarea>
+</section>
+
+<script src="cn.js"></script>
+</body>
+</html>
